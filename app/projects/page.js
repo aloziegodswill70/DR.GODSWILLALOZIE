@@ -47,7 +47,12 @@ const projects = [
     title: "selfbossyouthfoundation",
     desc: "NGO website for youth empowerment",
     link: "https://www.selfbossyouthfoundation.org"
-  }
+  },
+  {
+    title: "Ngwaday-cultural promotion",
+    desc: "Cultural website to promote culture",
+    link: "https://www.ngwaday.online"
+  },
 ];
 
 export default function ProjectsPage() {
