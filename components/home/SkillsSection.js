@@ -81,7 +81,7 @@ export default function SkillsSection() {
               <div>
                 <h5 className="font-semibold mb-2 text-glow1">Frontend</h5>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  HTML, CSS, JavaScript, React, Next.js, Tailwind CSS —
+                  HTML, CSS, JavaScript, React, CSS —
                   building responsive, accessible, and modern user
                   interfaces.
                 </p>
@@ -90,7 +90,7 @@ export default function SkillsSection() {
               <div>
                 <h5 className="font-semibold mb-2 text-glow2">Backend</h5>
                 <p className="text-gray-300 text-sm leading-relaxed">
-                  Node.js, API design, authentication, Prisma, PostgreSQL,
+                  Node.js, API design, authentication, PostgreSQL,
                   server logic, and secure data handling.
                 </p>
               </div>
