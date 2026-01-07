@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const projects = [
   {
     title: "Havana Eye Clinic",
-    desc: "E-commerce eyewear platform built with Next.js and Prisma",
+    desc: "An Eye Clinic Website in the city of Asaba",
     link: "https://www.havanaeyeclinic.online"
   },
   {
@@ -26,7 +26,12 @@ const projects = [
   {
     title: "Focus Eye Clinic",
     desc: "Eye clinic website design",
-    link: "https://focuseyeclinic.vercel.app"
+    link: "https://focuseye-wzqs.vercel.app"
+  },
+  {
+    title: "E Bank Solution",
+    desc: "Your trusted online banking web app",
+    link: "https://ebs-teal.vercel.app"
   },
   {
     title: "Ancilla Eye Hospital",

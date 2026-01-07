@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const services = [
   {
     title: "Web Development",
-    desc: "Responsive, fast websites and admin dashboards (Next.js, Tailwind, Prisma)."
+    desc: "Responsive, fast websites and admin dashboards (React.js, Tailwind, Prisma)."
   },
   {
     title: "Mobile Applications",
