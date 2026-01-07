@@ -16,11 +16,12 @@ export default function Footer() {
         <div>
           <h3 className="text-lg font-semibold text-glow1 mb-2">Quick Links</h3>
           <ul className="space-y-1 text-sm">
-            <li><a href="/" className="hover:text-glow1">Home</a></li>
-            <li><a href="/about" className="hover:text-glow1">About</a></li>
             <li><a href="/services" className="hover:text-glow1">Services</a></li>
             <li><a href="/projects" className="hover:text-glow1">Projects</a></li>
             <li><a href="/contact" className="hover:text-glow1">Contact</a></li>
+            <li><a href="/dr-godswillalozie" className="hover:text-glow1">Dr Godswill Alozie</a></li>
+            <li><a href="/partnership" className="hover:text-glow1">Partner with us</a></li>
+            <li><a href="/eye-care" className="hover:text-glow1">Eye Love You</a></li>
           </ul>
         </div>
 

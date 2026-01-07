@@ -30,8 +30,8 @@ export default function EyeCarePage() {
           </ul>
 
           <div className="mt-6 flex gap-3">
-            <a href="/contact" className="px-5 py-2 bg-glow2 rounded-full text-black font-semibold">Book Consultation</a>
-            <a href="mailto:draloziegodswill@gmail.com" className="px-5 py-2 border border-glow1 rounded-full text-glow1">Email Clinic</a>
+            <a href="/contacts" className="px-5 py-2 bg-glow2 rounded-full text-black font-semibold">Book Consultation</a>
+            <a href="mailto:aloziegodswill70@gmail.com" className="px-5 py-2 border border-glow1 rounded-full text-glow1">Email Clinic</a>
           </div>
         </motion.div>
 
