@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import FixedCallButton from "@/components/ui/FixedCallButton";
+import BottomNav from "@/components/BottomNav";
 
 export const metadata = {
   title: "Dr Godswill Alozie | Portfolio",
@@ -23,15 +24,17 @@ export default function RootLayout({ children }) {
         {/* NAVBAR */}
         <Navbar />
 
-        <main className="pt-24">
+        {/* MAIN CONTENT */}
+        <main className="pt-24 pb-24 sm:pb-0">
           {children}
         </main>
 
-        {/* FOOTER */}
+        {/* FOOTER (DESKTOP-FIRST) */}
         <Footer />
 
-        {/* FIXED CALL BUTTON (GLOBAL) */}
+        {/* GLOBAL FLOATING ACTIONS */}
         <FixedCallButton />
+        <BottomNav />
 
       </body>
     </html>
