@@ -155,10 +155,10 @@ function Dashboard() {
           </p>
 
           <div className="flex gap-3">
-            <a href="#contact" className="btn btn-primary">
+            <a href="/contacts" className="btn btn-primary">
               Request System
             </a>
-            <a href="#projects" className="btn btn-secondary">
+            <a href="/projects" className="btn btn-secondary">
               View Work
             </a>
           </div>

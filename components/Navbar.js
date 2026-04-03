@@ -16,7 +16,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link
             href="/"
-            className="text-xl font-bold glow-text"
+            className="text-xl font-bold text-blue-300 ml-6 lg:ml-0"
             onClick={closeMenu}
           >
             Dr Godswill
