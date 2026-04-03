@@ -11,13 +11,13 @@ export default function Navbar() {
   return (
     <>
       <nav className="w-full fixed top-0 left-0 z-50 backdrop-blur-md border-b border-white/10 bg-black/30">
-        <div className="max-w-6xl mx-auto flex items-center justify-between px-5 py-4">
+        <div className="max-w-6xl mx-auto relative flex items-center justify-between px-5 py-4">
 
           {/* LOGO */}
           <Link
             href="/"
-            className="text-xl font-bold text-blue-300 ml-6 lg:ml-0"
             onClick={closeMenu}
+            className="text-xl font-bold text-blue-300 absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0 lg:left-auto"
           >
             Dr Godswill
           </Link>
